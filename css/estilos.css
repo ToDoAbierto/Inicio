@@ -1,0 +1,533 @@
+html, body {
+
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    z-index: -100;
+/* chrome */
+   background: -webkit-linear-gradient(bottom, #fafada 0%, transparent 70%), -webkit-linear-gradient(top, #dbedf4 10%, transparent 80%), -webkit-linear-gradient(right, #5eaecb 10%, transparent 80%), -webkit-linear-gradient(left, #eda155 10%, transparent 70%);
+    
+ background: -moz-linear-gradient(bottom, #fafada 0%, transparent 70%), -moz-linear-gradient(top, #dbedf4 10%, transparent 80%), -moz-linear-gradient(right, #5eaecb 10%, transparent 80%), -moz-linear-gradient(left, #eda155 10%, transparent 70%);
+    
+    background:  -moz-linear-gradient(45deg, #fafada 0%, rgba(225, 5, 34, 0) 70%),  -moz-linear-gradient(135deg, #dbedf4 10%, rgba(49, 5, 209, 0) 80%),  -moz-linear-gradient(225deg, #5eaecb 10%, rgba(10, 219, 216, 0) 80%),  -moz-linear-gradient(315deg, #eda155 100%box-sizing: inherit, rgba(9, 245, 5, 0) 70%);
+    
+  background:  linear-background(45deg, #fafada 0%, rgba(225, 5, 34, 0) 70%),  linear-background(135deg, #dbedf4 10%, rgba(49, 5, 209, 0) 80%),  linear-background(225deg, #5eaecb 10%, rgba(10, 219, 216, 0) 80%),  linear-background(315deg, #eda155 100%box-sizing: inherit, rgba(9, 245, 5, 0) 70%);      
+}
+
+.img-alta {
+    position: absolute;
+    z-index: -100;
+    height: 100%;
+    width: 38%;
+    min-width: 180px;
+}
+
+.cabecera {
+    padding-right: 0px;
+}
+
+.fondo-nube {
+    background-image: url(imgcss/nubejum3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* ==================  CABECERA ======================================== */
+.delante {
+    z-index: 100;
+}
+
+.logo {  
+    z-index: 100;
+    float: left;
+   width: 100%;
+    min-width: 120px;
+ margin: 5px 10px 0px -10px;
+    max-width: 180px;
+}
+
+.toggle-distinto {
+  position:relative;
+  float: right;
+  padding: 10px 0px 0px 0px;
+  margin-right: 2%;
+}
+
+.navbar-toggle .icon-bar-distinto {
+      opacity: 1;
+    background-color: #144518;
+     border: 2px solid #144518;
+     border-radius: 2;
+}
+
+.navegacion {   
+    background-image: url(imgcss/ramas3.png);
+    background-size: 100% 100%;
+    margin-top:-70px;
+   margin-right: 6%;
+    width: 85%;
+    float: right;
+    z-index: -170;
+}
+
+.nav-ramas {
+     width: 100%;
+    padding-top:10%;
+    padding-bottom:5%;
+}
+
+.img-fondo-barra {
+    width: 100%;
+    height: 150px;
+}
+
+/* --------BUSCADOR--------*/
+.navbar-buscador {
+    position: relative;
+    background-image: url(imgcss/nubejum2.png);
+    background-size: 100% 100%;
+
+    min-height: 75px;
+    padding: 20px 30px 0px 30px;
+    margin: 0px 0px 80px 0px;
+    float: left;
+    -webkit-box-shadow:none;
+    border:none; 
+}
+
+.control-buscador {   
+  display:block;
+  width: 80%;
+  height: 34px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #521313;
+  background-color: transparent;
+  border: 2px solid #521313;
+}
+
+.btn-buscador {
+  float: right;          
+  color: #fff;
+  background-color: #521313;
+  border-color: #521313;
+}
+
+.fondo-barra {
+    background-image: url(imgcss/ramas2.png);
+    background-size: 100%;
+}
+/* FIN CABECERA ==================================*/
+
+
+/* ================  CONTENIDO GENERAL ==================================*/
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fondo-contenido {
+    position: absolute;
+}
+
+.jumbotron-distinto {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    background-image: url(imgcss/nubejum3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.jumbotron-distinto .titulo {
+    text-align: center;
+    color:#4d1212;
+    font-size: 30px;
+    padding-top: 10px;  
+}
+
+.jumbotron-distinto .descrip {
+    text-align: center;
+    color:#4d1212;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+
+.migas {
+    background-image: url(imgcss/nubemig2.png);
+    background-size: 100% 100%;
+}
+
+.breadcrumb > li.migas + li:before {
+  content: none;
+}
+
+.texto-migas {
+    margin: 10px 20px 5px 20px;
+    font-size: 15px;
+    color: darkblue;
+}
+
+.migas-activa {
+    margin: 15px 35px 10px 35px;
+    font-size: 18px;
+    color:#550a16;
+}
+
+.post-inicial {
+    border-bottom: transparent;
+}
+
+.grupo-videos {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.videos{
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;  
+}
+
+.navegacion-vertical {
+    float: left;
+    margin-left: 0px;
+}
+
+.grupo-botones-verticales{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.btn-arbol {
+    font-size: 40px;
+   color: #d19f80;
+    text-shadow:
+        4px 1px 0px #460c0c,
+        6px 2px 3px #414141;
+     background-color: transparent;
+  border-color: transparent;
+    padding: 30px 0px;  
+}
+
+.btn-arbol:active,
+.btn-arbol.active,
+.open > .dropdown-toggle.btn-arbol {
+  background-image: none;
+}
+.btn-arbol:hover {
+  color: #333;
+  background-color:transparent;
+  border-color: transparent;
+}
+
+.btn-arbol.disabled:hover,
+.btn-arbol[disabled]:hover,
+fieldset[disabled] .btn-arbol:hover,
+.btn-arbol.disabled:focus,
+.btn-arbol[disabled]:focus,
+fieldset[disabled] .btn-arbol:focus,
+.btn-arbol.disabled.focus,
+.btn-arbol[disabled].focus,
+fieldset[disabled] .btn-arbol.focus {
+  background-color: transparent;
+  border-color: #ccc;
+}
+.arbol {
+     background-image: url(imgcss/arbol3.png);
+    background-size: 10% 93%;
+    background-repeat: no-repeat;
+    background-position: right;
+    bottom:0px;
+    margin-right: auto;
+    z-index: -50;
+}
+
+.arbol_textop {
+    font-size: 20px;
+    width: 100%;   
+}
+
+.linea-tiempo {
+    max-width: 50%;
+}
+
+.fb-page {
+    width: 20%;
+    background-color: transparent;
+    margin-left: 20px;
+}
+
+.adaptable {   
+    margin-left: 10%;
+}
+
+.breadcrumb-distinta {
+    padding: 13px 5px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px;
+    display:inline-table;
+}
+
+.contenedor-migas {
+    padding: 0;
+}
+
+.nube-migas {
+    position: absolute;
+    width: 150px;
+    height: 50px; 
+    z-index: -100;
+    opacity: 0.7;    
+}
+.fondo-navbar {
+    max-height: 174px;
+    width: 100%;
+    z-index: -50;
+    position: absolute;
+}
+
+.fondo-nube {
+    position: absolute;
+    z-index: -50;
+    width: 60%;
+    opacity: 0.73;
+    top:0px;   
+}
+
+.fondo-menu-izq {
+    position: absolute;
+    z-index: -200;
+    margin-top: 0px;
+    width: 38%;
+    height: 100%;
+    max-width: 345px;
+    min-width: 180px;
+}
+
+.breadcrumb-distinto {
+    padding: 8px 15px;
+  margin-bottom: 5px;
+  list-style: none;
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.menu-derecho {
+    margin-right: 5px;
+}
+
+.post {
+    padding-bottom: 20px;
+}
+
+.post .post-title a {
+    color:#333;
+}
+
+.post .thumb {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img {
+    width: 100%;
+}
+
+.post .contenedor-botones {
+    width:100%;
+    padding-bottom: 5px;
+    height: auto;
+}
+
+.post .thumb-distinta {
+    max-width: 80px;  
+}
+
+.img-thumbnail-distinta {
+    background-color: transparent;
+    padding: 0px;
+}
+
+.btn-normal {
+    background-color: #6d3f22;
+    border-color: #332108;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.btn-suceso {
+    background-color: #0b410d;
+    border-color: #0c2c03;
+    border-radius: 50%;
+    margin-bottom: 5px;   
+}
+
+.btn-suceso .badge {
+    color: #0c2c03;
+}
+
+.container-lateral {
+    height: auto;
+}
+
+.desplegable {
+    margin-right: 10px;
+}
+
+
+
+/* FIN CONTENIDO GENERAL ==================================*/
+
+/* =================== PIE ================================*/
+.texto-pie {
+    color:brown;
+}
+
+.contenedor-pie {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgcss/hierba.png);
+    background-size: 100% 100%;   
+}
+.pie {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 5%;     
+}
+
+.imagen-pie {
+    height: 120px;
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+}
+
+.contenido-pied {
+    margin-top: 30px;
+}
+
+.contenido-piei {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.fa-stack {
+  color:brown;  
+}
+
+.btn-pie {
+ background-color: brown;
+}
+
+.btn-red-pie {
+    background-color: brown;
+    border-radius: 60%;  
+    width: 100%
+}
+
+/* FIN PIE ================================*/
+
+/* __________ REDIMENSIONES ________________*/
+@media screen and (max-width: 768px) {
+    width:100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+@media (max-width: 768px){
+    .nav-ramas {
+        margin-top:120px;
+    }
+    
+    .navegacion {
+        padding: 0px 0px 50px 0px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .btn-buscador{
+        float: right;
+    }
+    .form-buscador{
+        float: right;
+    } 
+    .jumbotron-distinto .titulo {
+        font-size: 25px;
+        color:#550a16;
+        vertical-align: middle;
+        
+    }
+    
+   .jumbotron-distinto .descrip {
+        color:#550a16;
+        vertical-align: middle; 
+        font-size: 20px;
+        text-align: center;      
+    }
+    
+    .descripcion {
+        font-size: 18px;
+        color:#550a16;
+        vertical-align: middle;
+    } 
+    
+    .menu-derecho {
+        width: 100%;      
+        float: right;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);      
+    }
+    .navbar-buscador {  
+         margin: 0px 0px 0px 0px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .navegacion  {
+        width: 95%;
+        margin-top:-90px;
+    }
+}
+
+@media (min-width: 1200px) {
+ .navegacion  {
+        width: 95%;
+        margin-top:-90px;
+    }
+  }
+
+/* FIN REDIMENSIONES ________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
