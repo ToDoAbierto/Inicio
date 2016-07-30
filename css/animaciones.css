@@ -225,8 +225,9 @@
 }
 .menu .rotater {
   position: absolute;
-  top: 0;
-  left: 0;    position: fixed;
+  top: 50px;
+  left: 0px;    
+position: fixed;
   width: 100%;
   height: 100%;
   -webkit-transform-origin: 50% 50%;
@@ -234,14 +235,20 @@
           transform-origin: 50% 50%;
 }
 
+.rotater a {
+    color="#040196";
+}
+
+
 .menu.active .btn-icon {
   opacity: 1;
   z-index: 50;
-  background-image: url(imgcss/gusano2.png);
+  background-image:url(imgcss/nubejum2.png);
   background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-   
+   padding: 20px 40px 30px 10px;
+    width: initial;
 }
 .menu.active .trigger .line {
   height: 0px;
@@ -373,10 +380,10 @@
 }
 .boton-manzana {
     position: absolute;
-   width: 90px;
-    height: 60px;
+   width: 150px;
+    height: 100px;
    z-index: -50;
-    margin-left: -35px;
+    margin-left: -55px;
 }
 .boton-gusano {
     width: 70px;
