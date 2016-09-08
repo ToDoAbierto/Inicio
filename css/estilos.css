@@ -245,6 +245,11 @@ padding: 20px 30px 0px 30px;
     background-size: 100%;
 }
 
+.contenedor-contenido {
+    width: 75%;
+    max-height: 1800px;
+}
+
 /* __________ REDIMENSIONES ________________*/
 @media screen and (max-width: 768px) {
     width:100%;
