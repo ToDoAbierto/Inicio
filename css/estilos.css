@@ -518,6 +518,7 @@ fieldset[disabled] .btn-arbol.focus {
 }
 
 .contenido-fluid {
+     width: 98%;
 /*    float: left;*/
 /*
     background-image: url(imgcss/arbol3.png);
