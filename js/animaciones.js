@@ -6,16 +6,16 @@ $(function () {
 
 //MENÚ CIRCULAR CON ROTACIÓN DEL SUBMENÚ
 $(document).ready(function() {
-  $('.trigger').click(function() {
-    $('.menu').toggleClass('active');
+  $(".trigger").click(function() {
+    $(".menu").toggleClass("active"); 
   });
-
-  $('.trigger1').click(function() {
-    $('#boton1').toggleClass('active');
+    
+  $(".trigger1").click(function() {
+    $("#boton1").toggleClass("active"); 
   });
-
-  $('.trigger2').click(function() {
-    $('#boton2').toggleClass('active');
+    
+  $(".trigger2").click(function() {
+    $("#boton2").toggleClass("active"); 
   });
 });
 
@@ -36,7 +36,7 @@ $('.btn-triger').click(function(){
 	switchAccordion,
   touchSupported = ('ontouchstart' in window),
   pointerSupported = ('pointerdown' in window);
-
+  
   skipClickDelay = function(e){
     e.preventDefault();
     e.target.click();
@@ -47,11 +47,11 @@ $('.btn-triger').click(function(){
 	};
 	setAccordionAria = function(el1, el2, expanded){
 		switch(expanded) {
-      case 'true':
+      case "true":
       	setAriaAttr(el1, 'aria-expanded', 'true');
       	setAriaAttr(el2, 'aria-hidden', 'false');
       	break;
-      case 'false':
+      case "false":
       	setAriaAttr(el1, 'aria-expanded', 'false');
       	setAriaAttr(el2, 'aria-hidden', 'true');
       	break;
@@ -73,7 +73,7 @@ switchAccordion = function(e) {
   	thisQuestion.classList.toggle('is-expanded');
 		thisAnswer.classList.toggle('is-collapsed');
 		thisAnswer.classList.toggle('is-expanded');
-
+ 	
   	thisAnswer.classList.toggle('animateIn');
 	};
 	for (var i=0,len=accordionToggles.length; i<len; i++) {
@@ -93,7 +93,7 @@ switchAccordion = function(e) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = '//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5';
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
 
@@ -129,8 +129,5 @@ switchAccordion = function(e) {
       }
     }
 
-
+          
   });
-
-  // FUNCIONES BOTONES href
-  
